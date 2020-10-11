@@ -242,15 +242,19 @@ section .title::after{
 .about .about-content .right p{
     text-align: justify;
 }
-.about .about-content .right a{
+.about .about-content a{
     color: #F9D423;
     
 }
-.about .about-content .right a:hover{
-    color: #101214;
-    background: none;
-    text-decoration: underline;
+.about.cv{
+	
 }
+.about .about-content .right a:hover{
+    color: #101214 !important;
+    background: none !important;
+    text-decoration: none !important;
+}
+
 
 /* Portfolio */
 #tabs{
