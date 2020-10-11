@@ -7,13 +7,11 @@
   <!-- CSS only -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
 <link rel="stylesheet" type="text/css" href="style.css">
 <!-- JS, Popper.js, and jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
     </head>
   <body>
 <header class="header">
@@ -57,10 +55,10 @@ And I'm a <span class="typing"></span></div>
             <h2 class="title" data-aos="fade-up">
 About me</h2>
 <div class="about-content">
-                <div class="column left" data-aos="fade-up">
+                <div class="column left">
                     <img src="img/g2.jpg" alt="">
                 </div>
-<div class="column right" data-aos="fade-up">
+<div class="column right">
                     
 <p>
 I'm a graduated Bachelor of Computer Application(BCA) student at University Of Engineering & Management, focusing on Web Development.
@@ -110,9 +108,9 @@ I love to create websites for users and i want to make my carrer in web develope
 <!-- skills section start -->
     <section class="skills" id="skills">
         <div class="max-width">
-            <h2 class="title" data-aos="fade-up">
+            <h2 class="title" >
 My skills</h2>
-<div class="skills-content" data-aos="fade-up">
+<div class="skills-content">
                 <div class="column left">
                     <div class="text">
 My creative skills & experiences.</div>
@@ -177,7 +175,7 @@ My creative skills & experiences.</div>
    <h2 class="text-center" style=" font-family: 'Ubuntu', sans-serif;" data-aos="fade-up">
 My Portfolio</h2>
    
-   <section id="tabs" data-aos="fade-up">
+   <section id="tabs">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 ">
@@ -316,7 +314,7 @@ My Portfolio</h2>
 </div>
     
     <!-- contact section start -->
-    <section class="contact" id="contact" data-aos="fade-up">
+    <section class="contact" id="contact" >
         <div class="max-width">
             <h2 class="title" data-aos="fade-up">
 Contact me</h2>
@@ -474,10 +472,7 @@ $(document)
     }
   });
   
-  AOS.init({
-  duration: 1000,
-});
-
+ 
 // build key actions
 $(document)
   .keydown(function (e) {
